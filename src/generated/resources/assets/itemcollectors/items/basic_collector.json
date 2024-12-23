@@ -1,0 +1,6 @@
+{
+  "model": {
+    "model": "itemcollectors:block/basic_collector",
+    "type": "minecraft:model"
+  }
+}

@@ -74,6 +74,7 @@ public class ItemCollectors implements ModInitializer {
         GeneratorRegistrationHandler handler = GeneratorRegistrationHandler.get("itemcollectors");
         handler.addGenerator(CollectorModelGenerator::new);
         handler.addGenerator(CollectorBlockStateGenerator::new);
+        handler.addGenerator(CollectorItemInfoGenerator::new);
         handler.addGenerator(CollectorLanguageGenerator::new);
         handler.addGenerator(CollectorLootTableGenerator::new);
         handler.addGenerator(CollectorRecipeGenerator::new);
